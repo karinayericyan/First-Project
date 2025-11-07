@@ -1,0 +1,290 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+body{
+    margin:0px 30px
+
+}
+@font-face {
+    font-family: karina;
+    src: url(./static1/PlaywriteDESAS-Thin.ttf);
+}
+@font-face {
+    font-family: karina1;
+    src: url(./static2/Montserrat-ExtraLight.ttf);
+}
+@font-face {
+    font-family: karina3;
+    src: url(./static5/OpenSans_SemiCondensed-Light.ttf);
+}
+
+
+h3{
+    font-size: 18px;
+    font-family:karina;
+    font-weight: 100;
+}
+nav{
+    height: 60px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.links-container{
+    height: 100%;
+    width: 100%;;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+    font-family: karina1;
+    font-size: 14px;
+}
+nav ul{
+    height: 100%;
+    padding: 0 20px;
+    display: flex;
+    gap:50px;
+    align-items: center;
+    color: black;
+}
+nav ul a{
+    color: black;
+}
+nav ul li a:hover{
+    color: rgb(236, 188, 128);
+}
+.login{
+    color: rgb(215, 150, 72);
+    font-size: 16px;
+
+}
+
+#sidebar-active{
+    display: none;
+}
+.open-sidebar-button,.close-sidebar-button{
+    display: none;
+}
+@media screen and (max-width:880px){
+    .links-container{
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 10;
+        width: 300px;
+        height: 600px;
+        background-color: white;
+    }
+      ul{
+        display: flex;
+        flex-direction: column;
+        align-self: flex-end;
+        
+    }
+    nav a{
+        box-sizing: border-box;
+        width: 100%;
+    /* justify-content: flex-end;    } */
+    }
+
+    .open-sidebar-button,.close-sidebar-button{
+        display: block;
+        padding:20px;
+    }
+    #sidebar-active:checked~ .links-container{
+        display: flex;
+    }
+
+    .open-sidebar-button{
+        margin-left: auto;
+    }
+
+}
+
+/* section */
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 15%;
+    gap:150px
+}
+.row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:130px
+}
+.row img{
+    max-width: 40%;
+}
+.text,.text1,.text2,.text3{ 
+    max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap:20px
+  
+}
+
+.image1{
+    box-shadow: 65px -50px 0px 18px #f5edeb;
+}
+
+.image2{
+    box-shadow: -75px -55px 0px 10px #f5edeb;
+}
+
+span{
+    font-size: 90px;
+}
+sup,h4{
+    font-size: 20px;
+}
+.sub{
+    font-size: 90px;
+}
+.text p{
+    font-family: karina3;
+}
+.text1 p{
+     font-family: karina3;
+
+}
+.text2 p{
+     font-family: karina3;
+
+}
+.text3 p{
+     font-family: karina3;
+
+}
+h4{
+     font-size: 25px;
+    font-weight: 100;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.684);
+}
+
+.footerr{
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:60px;
+   margin-top: 13%;
+    margin-bottom: 5%;
+  font-style: italic;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.696); 
+  
+}
+.foot1{
+  border-left: 2px solid bisque;
+  padding-left: 40px;
+  
+}
+.bn{
+  padding: 10px;
+  width: 185px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid bisque;
+}
+.bn a{
+    color:rgba(0, 0, 0, 0.696); 
+     font-size: 17px;
+}
+.bn:hover{
+    background-color: #DAA06D;
+}
+.bn a:hover{
+    color: white;
+}
+
+
+
+@media screen and (max-width:860px){
+    .gallery{
+        gap:0
+    }
+    .row img{
+        max-width: 80%;
+    }
+     .text1{
+        order: -1;
+    }
+    .text3{
+        order:-2
+    }
+  
+}
+    
+   
+
+@media screen and (max-width:560px){
+    .gallery{
+        gap:50px;
+        margin-top: -2%;
+    
+    }
+    .row img{
+        max-width: 100%;
+         box-shadow: 1px -5px 0px 20px #f5edeb;
+    }
+    
+    .row{
+        gap:60px
+    }
+    .text1{
+        order: -1;
+    }
+    .text3{
+        order:-2
+    }
+    
+    .gallery{
+        gap:0
+    }
+
+    
+}
+
+@media screen and (max-width:359px){
+    .gallery{
+        gap:50px;
+        margin-top: -2%;
+    
+    }
+    .row img{
+        max-width: 100%;
+         box-shadow: 1px -5px 0px 20px #f5edeb;
+    }
+    
+    .row{
+        gap:60px
+    }
+    .text1{
+        order: -1;
+    }
+    .text3{
+        order:-2
+    }
+    
+    .gallery{
+        gap:0
+    }
+
+
+    
+}
+

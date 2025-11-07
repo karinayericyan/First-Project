@@ -1,0 +1,538 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+body{
+    margin:0px 30px
+
+}
+@font-face {
+    font-family: karina;
+    src: url(./staticc1/PlaywriteDESAS-Thin.ttf);
+}
+@font-face {
+    font-family: karina1;
+    src: url(./static2/Montserrat-ExtraLight.ttf);
+}
+
+h3{
+    font-size: 18px;
+    font-family:karina;
+    font-weight: 100;
+}
+nav{
+    height: 60px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.links-container{
+    height: 100%;
+    width: 100%;;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+    font-family: karina1;
+    font-size: 14px;
+}
+nav ul{
+    height: 100%;
+    padding: 0 20px;
+    display: flex;
+    gap:50px;
+    align-items: center;
+    color: black;
+}
+nav ul a{
+    color: black;
+}
+nav ul li a:hover{
+    color: rgb(236, 188, 128);
+}
+.login{
+    color: rgb(215, 150, 72);
+    font-size: 16px;
+
+}
+#sidebar-active{
+    display: none;
+}
+.open-sidebar-button,.close-sidebar-button{
+    display: none;
+}
+@media(max-width:990px){
+    .links-container{
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 10;
+        width: 300px;
+        height: 600px;
+        background-color: white;
+    }
+       ul{
+        display: flex;
+        flex-direction: column;
+        align-self: flex-end;
+        
+    }
+    nav a{
+        box-sizing: border-box;
+        width: 100%;
+        }
+
+    .open-sidebar-button,.close-sidebar-button{
+        display: block;
+        padding:20px;
+    }
+    #sidebar-active:checked~ .links-container{
+        display: flex;
+    }
+
+    .open-sidebar-button{
+        margin-left: auto;
+    }
+
+}
+
+.border{
+  display: flex;
+  flex-direction: column;
+
+}
+.pink{
+  max-width: 90%;
+  background-color: #f5edeb;
+  height: 400px;
+  margin-left: 70px;
+}
+
+.imagee{
+  max-width: 65%;
+  z-index: 1;
+  margin-left: 17%;
+  margin-top: -20%;
+  position: relative;
+
+}
+.mem{
+  position: absolute;
+    color: rgba(255, 255, 255, 0.845);
+  left:42%;
+  top:38%;
+  z-index: 1000;
+  font-size: 25px;
+  font-style: italic;
+  font-weight:100;
+}
+.gallery{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    gap:100px;
+    margin-top: 70px;
+    margin-right: 20px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    gap:120px
+}
+.row img{
+    max-width: 28%;
+}
+.footerr{
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:60px;
+   margin-top: 13%;
+    margin-bottom: 5%;
+  font-style: italic;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.696); 
+  
+}
+.foot1{
+  border-left: 2px solid bisque;
+  padding-left: 40px;
+  
+}
+.bn{
+  padding: 10px;
+  width: 185px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid bisque;
+}
+.bn a{
+    color:rgba(0, 0, 0, 0.696); 
+     font-size: 17px;
+}
+.bn:hover{
+    background-color: #DAA06D;
+}
+.bn a:hover{
+    color: white;
+}
+
+
+@media screen and (max-width: 1030px) {
+    .imagee{
+        max-width: 70%;
+        margin-top: -30%;
+    }
+    .mem{
+        top:30%
+    }
+  
+
+}
+@media screen and (max-width: 850px) {
+    .imagee{
+        max-width: 70%;
+       
+    }
+    .pink{
+        height: 250px;
+        margin-right: 40px;
+        
+        
+    }
+    .mem{
+        top:20%;
+        right: 20%;
+    }
+    .gallery{
+        display:flex;
+        gap:30px
+      
+    }
+  .row img{
+    max-width: 60%;
+  }
+  .row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px
+
+  }
+   
+}
+
+
+
+
+@media screen and (max-width: 670px) {
+    .imagee{
+        max-width: 70%;
+       
+    }
+    .pink{
+        height: 200px;
+        margin-right: 40px;
+        
+        
+    }
+    .mem{
+        top:16%;
+        left: 35%;
+    }
+}
+@media screen and (max-width: 578px) {
+    .imagee{
+        max-width: 70%;
+       
+    }
+    .pink{
+        height: 200px;
+        margin-right: 40px;
+        
+        
+    }
+    .mem{
+        top:16%;
+        left: 33%;
+    }
+}
+@media screen and (max-width: 520px) {
+   
+       .gallery{
+        display:flex;
+        flex-direction: column;
+        gap:30px
+       
+      
+    }
+  .row {
+    display: flex;
+    flex-direction: column;
+    gap:30px
+   
+
+  }
+  .row img{
+    max-width: 80%;
+
+  }
+
+ body{
+        margin: 2px 0px;
+    }
+  
+    .pink{
+        margin: 0px 20px;
+        padding: 0px;
+        width: 100%;
+        height: 240px;
+        position: relative;
+       
+    }
+    .imagee{
+        position: relative;
+        max-width: 80%;
+        margin-left: 10%;
+        margin-top: -90%;
+        
+    }
+    .mem{
+        top: 22%;
+        left: 29%;
+        font-size: 24px;
+        
+    }
+
+
+}
+@media screen and (max-width: 471px) {
+  
+     .pink{
+        margin: 0px 20px;
+        padding: 0px;
+        width: 100%;
+        height: 200px;
+        position: relative;
+       
+    }
+    .imagee{
+        position: relative;
+        max-width: 80%;
+        margin-left: 10%;
+        margin-top: -90%;
+        
+    }
+    .mem{
+        top: 18%;
+        left: 29%;
+        font-size: 24px;
+        
+    }
+       .row img{
+    max-width: 70%;
+
+  }
+}
+
+@media screen and (max-width: 463px) {
+  
+     .pink{
+        margin: 0px 20px;
+        padding: 0px;
+        width: 100%;
+        height: 200px;
+        position: relative;
+       
+    }
+    .imagee{
+        position: relative;
+        max-width: 80%;
+        margin-left: 10%;
+        margin-top: -90%;
+        
+    }
+    .mem{
+        top: 18%;
+        left: 29%;
+        font-size: 22px;
+        
+    }
+       .row img{
+    max-width: 66%;
+
+  }
+}
+@media screen and (max-width: 421px) {
+  
+     .pink{
+        margin: 0px 20px;
+        padding: 0px;
+        width: 100%;
+        height: 200px;
+        position: relative;
+       
+    }
+    .imagee{
+        position: relative;
+        max-width: 80%;
+        margin-left: 10%;
+        margin-top: -90%;
+        
+    }
+    .mem{
+        top: 20%;
+        left: 29%;
+        font-size: 20px;
+        
+    }
+       .row img{
+    max-width: 66%;
+
+  }
+}
+
+
+@media  screen and (max-width: 383px) {
+  
+        .pink{
+        margin: 0px 20px;
+        padding: 0px;
+        width: 100%;
+        height: 180px;
+        position: relative;
+       
+    }
+    .imagee{
+        position: relative;
+        max-width: 80%;
+        margin-left: 10%;
+        margin-top: -90%;
+        
+    }
+    .mem{
+        top: 20%;
+        left: 29%;
+        font-size: 19px;
+        
+    }
+
+
+}
+@media  screen and (max-width: 365px) {
+  
+        .pink{
+        margin: 0px 20px;
+        padding: 0px;
+        width: 100%;
+        height: 180px;
+        position: relative;
+       
+    }
+    .imagee{
+        position: relative;
+        max-width: 80%;
+        margin-left: 10%;
+        margin-top: -90%;
+        
+    }
+    .mem{
+        top: 20%;
+        left: 29%;
+        font-size: 18px;
+        
+    }
+
+
+}
+@media  screen and (max-width: 355px) {
+  
+        .pink{
+        margin: 0px 20px;
+        padding: 0px;
+        width: 100%;
+        height: 180px;
+        position: relative;
+       
+    }
+    .imagee{
+        position: relative;
+        max-width: 80%;
+        margin-left: 10%;
+        margin-top: -90%;
+        
+    }
+    .mem{
+        top: 20%;
+        left: 29%;
+        font-size: 18px;
+        
+    }
+
+
+}
+@media  screen and (max-width: 348px) {
+  
+        .pink{
+        margin: 0px 20px;
+        padding: 0px;
+        width: 100%;
+        height: 180px;
+        position: relative;
+       
+    }
+    .imagee{
+        position: relative;
+        max-width: 80%;
+        margin-left: 10%;
+        margin-top: -90%;
+        
+    }
+    .mem{
+        top: 20%;
+        left: 29%;
+        font-size: 17px;
+        
+    }
+
+
+}
+@media screen and (max-width: 330px) {
+   
+     body{
+        margin: 2px 0px;
+    }
+  
+    .pink{
+        margin: 0px 20px;
+        padding: 0px;
+        width: 100%;
+        height: 150px;
+        position: relative;
+       
+    }
+    .imagee{
+        position: relative;
+        max-width: 90%;
+        margin-left: 5%;
+        margin-top: -90%;
+        
+    }
+    .mem{
+        position: absolute;
+        top: 13%;
+        left: 35%;
+        font-size: 22px;
+        
+    }
+}
+  
+   
