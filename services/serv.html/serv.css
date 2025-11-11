@@ -229,7 +229,7 @@ button a{
     color: white;
 }
 
-@media screen and (max-width:1000px){
+@media screen and (max-width:1224px){
   
     .pink{
         margin: 0px;
@@ -258,7 +258,7 @@ button a{
     }
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:890px){
   
     .pink{
         margin: 0px;
@@ -286,7 +286,7 @@ button a{
         
     }
 }
-@media screen and (max-width:750px){
+@media screen and (max-width:800px){
   
     .pink{
         margin: 0px;
@@ -321,7 +321,7 @@ button a{
     }
    
 }
-@media screen and (max-width:671px){
+@media screen and (max-width:738px){
   
     .pink{
         margin: 0px;
@@ -371,7 +371,7 @@ button a{
     }
    
 }
-@media screen and (max-width:592px){
+@media screen and (max-width:600px){
   
     .pink{
         margin: 0px;
@@ -389,14 +389,15 @@ button a{
     }
     .mem{
         position: absolute;
-        top: 18%;
+        top: 25%;
         left: 23%;
         font-size: 25px;
         
     }
    
 }
-@media screen and (max-width:546px){
+@media screen and (max-width:540px){
+
   
     .pink{
         margin: 0px;
@@ -414,17 +415,15 @@ button a{
     }
     .mem{
         position: absolute;
-        top: 20%;
+        top: 27%;
         left: 25%;
         font-size: 22px;
         
     }
    
 }
-@media screen and (max-width:490px){
-    body{
-        margin: 0;
-    }
+@media screen and (max-width:510px){
+   
   
     .pink{
         margin: 0px;
@@ -443,9 +442,9 @@ button a{
     }
     .mem{
         position: absolute;
-        top: 15%;
-        left: 15%;
-        font-size: 22px;
+        top: 18%;
+        left: 22%;
+        font-size: 23px;
         
     }
 
@@ -473,27 +472,221 @@ button a{
     }
   
 }
-@media screen and (max-width:320px){
+@media screen and (max-width:463px){
+   
+  
+    .pink{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 190px;
+        position: relative;
+       
+    }
+    .image1{
+        position: relative;
+        max-width: 90%;
+        margin-left: 5%;
+        margin-top: -90%;
+        
+    }
+    .mem{
+        position: absolute;
+        top: 18%;
+        left: 22%;
+        font-size: 21px;
+        
+    }
+
+    .section{
+        display: flex;
+        flex-direction: column;
+        gap:50px;
+        margin-top: 25%;
+    }
+  
+    .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:15px
+
+    }
+    .name{
+        display: flex;
+        gap: 10px;
+        
+    }
+    hr{
+        display: none;
+    }
+  
+}
+@media screen and (max-width:423px){
+   
+  
+    .pink{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 190px;
+        position: relative;
+       
+    }
+    .image1{
+        position: relative;
+        max-width: 90%;
+        margin-left: 5%;
+        margin-top: -90%;
+        
+    }
+    .mem{
+        position: absolute;
+        top: 21%;
+        left: 19%;
+        font-size: 21px;
+        
+    }
+
+
+  
+}
+@media screen and (max-width:407px){
+   
+  
+    .pink{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 190px;
+        position: relative;
+       
+    }
+    .image1{
+        position: relative;
+        max-width: 90%;
+        margin-left: 5%;
+        margin-top: -90%;
+        
+    }
+    .mem{
+        position: absolute;
+        top: 21%;
+        left: 18%;
+        font-size: 20px;
+        
+    }
+
+   
+  
+}
+@media screen and (max-width:384px){
+   
   
     .pink{
         margin: 0px;
         padding: 0px;
         width: 100%;
         height: 150px;
-       
+        position: relative;
        
     }
     .image1{
-        max-width: 80%;
-        margin-left: 10%;
+        position: relative;
+        max-width: 90%;
+        margin-left: 5%;
         margin-top: -90%;
         
     }
     .mem{
         position: absolute;
-        top: 15%;
-        left: 10%;
+        top: 17%;
+        left: 20%;
         font-size: 23px;
+        
+    }
+
+   
+  
+}
+@media screen and (max-width:367px){
+   
+  
+    .pink{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 150px;
+        position: relative;
+       
+    }
+    .image1{
+        position: relative;
+        max-width: 90%;
+        margin-left: 5%;
+        margin-top: -90%;
+        
+    }
+    .mem{
+        position: absolute;
+        top: 23%;
+        left: 17%;
+        font-size: 23px;
+        
+    }
+
+   
+  
+}
+@media screen and (max-width:330px){
+   
+  
+    .pink{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 150px;
+        position: relative;
+       
+    }
+    .image1{
+        position: relative;
+        max-width: 90%;
+        margin-left: 5%;
+        margin-top: -90%;
+        
+    }
+    .mem{
+        position: absolute;
+        top: 23%;
+        left: 15%;
+        font-size: 22px;
+        
+    }
+
+   
+  
+}
+@media screen and (max-width:320px){
+  
+    .pink{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 130px;
+       
+       
+    }
+    .image1{
+        max-width: 90%;
+        margin-top: -90%;
+        
+    }
+    .mem{
+        position: absolute;
+        top: 19%;
+        left: 15%;
+        font-size: 21px;
         
     }
    

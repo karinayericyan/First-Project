@@ -308,6 +308,39 @@ h4{
     
    
 }
+@media screen and (max-width:1200px){
+    .galleryy{
+        display: flex;
+        flex-direction: column;
+        margin-top:2%;
+        gap:0px
+    }
+    .gallery{
+      background-size: cover;
+    }
+
+    .text2{
+        order: -1;
+    }
+     
+    .row img{
+        max-width: 70%;
+    }
+    .row{
+        display: flex;
+        gap:90px
+    }
+  
+    
+   
+}
+
+@media screen and (max-width:994px){
+ .gallery{
+      background-size: contain;
+    }
+}
+
 @media screen and (max-width:790px){
     .galleryy{
         display: flex;
@@ -316,7 +349,7 @@ h4{
         margin-top: -30%;
     }
     .row{
-        gap:50px;
+        gap:90px;
     
         
     }
@@ -337,7 +370,7 @@ h4{
      .galleryy{
         display: flex;
         flex-direction: column;
-        margin-top: -50%;
+        margin-top: -55%;
        
       
     }
@@ -348,6 +381,10 @@ h4{
         padding: 0px 0px;
         background-attachment: unset;
      
+    }
+     .row{
+        display: flex;
+        gap:90px
     }
     .text{
         height: auto;
@@ -363,7 +400,7 @@ h4{
      .galleryy{
         display: flex;
         flex-direction: column;
-        margin-top: -50%;
+        margin-top: -55%;
        
       
     }
@@ -385,6 +422,20 @@ h4{
     }
     .text h2{
         font-size: 50px;
+    }
+}
+@media screen and (max-width:566px){
+
+     .galleryy{
+        display: flex;
+        flex-direction: column;
+        margin-top: -70%;
+       
+      
+    }
+    .row{
+        display: flex;
+        gap:90px
     }
 }
 @media screen and (max-width:558px){
@@ -461,7 +512,7 @@ h4{
     
 }
 
-@media screen and (max-width:453px){
+@media screen and (max-width:457px){
      .galleryy{
         display: flex;
         flex-direction: column;
@@ -496,15 +547,7 @@ h4{
         max-width: 100%;
     }
   
-    /* .foot3{
-        order: 1;
-    }
-    
-    .footer{
-        display: flex;
-       flex-direction: column;
-       align-items: center;
-    } */
+
 
    
    
@@ -537,7 +580,7 @@ h4{
         font-size: 20px;
     }
 }
-@media screen and (max-width:385px){
+@media screen and (max-width:394px){
      .galleryy{
         display: flex;
         flex-direction: column;
@@ -566,11 +609,11 @@ h4{
     }
    
 }
-@media screen and (max-width:335px){
+@media screen and (max-width:341px){
      .galleryy{
         display: flex;
         flex-direction: column;
-        margin-top: -200%;
+        margin-top: -190%;
       
     }
     
@@ -601,6 +644,42 @@ h4{
         font-size: 20px;
     }
 }
+@media screen and (max-width:320px){
+     .galleryy{
+        display: flex;
+        flex-direction: column;
+        margin-top: -210%;
+      
+    }
+    
+    .row{
+        gap:50px
+    }
+    .button{
+        margin-top: 2%;
+    }
+   
+     .text{
+        height: auto;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top:1%;
+        left:5%;
+    }
+      .text h2{
+        font-size: 18px;
+
+    }
+    .paragraph{
+
+        font-size: 14px;
+    }
+    .text .planner{
+        font-size: 20px;
+    }
+}
+
 .footerr{
   margin-top: 5%;
   display: flex;

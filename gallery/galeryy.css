@@ -186,7 +186,7 @@ nav ul li a:hover{
 }
 
 
-@media screen and (max-width: 1030px) {
+@media screen and (max-width: 1250px) {
     .imagee{
         max-width: 70%;
         margin-top: -30%;
@@ -197,20 +197,20 @@ nav ul li a:hover{
   
 
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 975px) {
     .imagee{
         max-width: 70%;
        
     }
     .pink{
-        height: 250px;
+        height: 350px;
         margin-right: 40px;
         
         
     }
     .mem{
-        top:20%;
-        right: 20%;
+        top:35%;
+        left: 40%;
     }
     .gallery{
         display:flex;
@@ -230,22 +230,37 @@ nav ul li a:hover{
    
 }
 
-
-
-
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 800px) {
     .imagee{
         max-width: 70%;
        
     }
     .pink{
-        height: 200px;
+        height: 300px;
         margin-right: 40px;
         
         
     }
     .mem{
-        top:16%;
+        top:30%;
+        left: 40%;
+    }
+}
+
+
+@media screen and (max-width: 675px) {
+    .imagee{
+        max-width: 70%;
+       
+    }
+    .pink{
+        height: 250px;
+        margin-right: 40px;
+        
+        
+    }
+    .mem{
+        top:25%;
         left: 35%;
     }
 }
@@ -255,13 +270,13 @@ nav ul li a:hover{
        
     }
     .pink{
-        height: 200px;
+        height: 220px;
         margin-right: 40px;
         
         
     }
     .mem{
-        top:16%;
+        top:25%;
         left: 33%;
     }
 }
@@ -332,7 +347,7 @@ nav ul li a:hover{
         
     }
     .mem{
-        top: 18%;
+        top: 22%;
         left: 29%;
         font-size: 24px;
         
@@ -361,7 +376,7 @@ nav ul li a:hover{
         
     }
     .mem{
-        top: 18%;
+        top: 22%;
         left: 29%;
         font-size: 22px;
         
@@ -389,7 +404,7 @@ nav ul li a:hover{
         
     }
     .mem{
-        top: 20%;
+        top: 25%;
         left: 29%;
         font-size: 20px;
         
@@ -419,7 +434,7 @@ nav ul li a:hover{
         
     }
     .mem{
-        top: 20%;
+        top: 23%;
         left: 29%;
         font-size: 19px;
         
@@ -445,9 +460,9 @@ nav ul li a:hover{
         
     }
     .mem{
-        top: 20%;
+        top: 23%;
         left: 29%;
-        font-size: 18px;
+        font-size: 19px;
         
     }
 
@@ -471,9 +486,9 @@ nav ul li a:hover{
         
     }
     .mem{
-        top: 20%;
+        top: 23%;
         left: 29%;
-        font-size: 18px;
+        font-size: 19px;
         
     }
 
@@ -497,9 +512,9 @@ nav ul li a:hover{
         
     }
     .mem{
-        top: 20%;
-        left: 29%;
-        font-size: 17px;
+        top: 23%;
+        left: 25%;
+        font-size: 19px;
         
     }
 
@@ -528,7 +543,7 @@ nav ul li a:hover{
     }
     .mem{
         position: absolute;
-        top: 13%;
+        top: 17%;
         left: 35%;
         font-size: 22px;
         

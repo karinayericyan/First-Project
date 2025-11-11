@@ -251,7 +251,8 @@ button{
 }
 
 
-@media screen and (max-width: 950px) {
+
+@media screen and (max-width: 1250px) {
 
 
         .main{
@@ -265,7 +266,7 @@ button{
     }
 
      .image{
-        max-width: 80%;
+        max-width: 60%;
      }
 
     .contact-container{
