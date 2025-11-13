@@ -294,6 +294,7 @@ hr{
 }
 .time{
     font-size: 16px;
+    margin-top: 1%;
 }
 .btn2{
   margin-top: 5%;
@@ -303,7 +304,7 @@ hr{
   border: 1px solid  rgb(198, 152, 95);;
 }
 .hr2{
-  width: 40%;
+  width: 45%;
 }
 .sesions p{
     text-decoration: underline;
@@ -423,24 +424,33 @@ hr{
        flex:5
     }
     hr{
-        width: 65%;
+        max-width: 68%;
     }
     .hr2{
-        width: 19%;
+        max-width: 20%;
     }
     .second{
         display: flex;
         flex-basis: 50%;
     }
+    .header{
+        display: flex;
+        flex-direction: column;
+        gap:5px;
+        margin-bottom: -2%;
+    
+       
+        
+    }
 
 }
-@media screen and (max-width:1024px){
+@media screen and (max-width:1080px){
     .arajin{
         display: flex;
        flex:5
     }
     hr{
-        width: 95%;
+        width: 100%;
     }
     .hr2{
         width: 105%;
@@ -449,6 +459,7 @@ hr{
         display: flex;
         flex-basis: 50%;
     }
+   
 
 }
 @media screen and (max-width:1024px){
@@ -457,18 +468,34 @@ hr{
        flex:5
     }
     hr{
-        width: 76%;
+        min-width: 73%;
     }
     .hr2{
-        width: 27%;
+        min-width: 25%;
     }
+    .all{
+        display: flex;
+        gap:30px
+    }
+     /* hr{
+        display: none;
+    } */
+
+}
+@media screen and (max-width:818px){
+    .arajin{
+        display: flex;
+       flex:5
+    }
+   
+   
     .all{
         display: flex;
         gap:30px
     }
 
 }
-@media screen and (max-width:800px){
+@media screen and (max-width:900px){
     .rov{
         display: flex;
         margin-top: -5%;
@@ -489,11 +516,48 @@ hr{
         display: flex;
         flex-direction: column;
     }
+    .nov p{
+        display: flex;
+        justify-content: flex-start;
+    }
 
-    .header{
+    hr{
+       display: none;
+    }
+    
+    .row{
+       display: flex;
+       flex-direction: column;
+
+    }
+    .arajin{
+        display: flex;
+       flex:5;
+       align-items: center;
+    }
+
+    }
+  
+@media screen and (max-width:669px){
+    .rov{
+        display: flex;
+        margin-top: -5%;
+
+    }
+    .image1{
+        max-width: 70%;
+      
+    }
+    .all{
         display: flex;
         flex-direction: column;
-        gap:10px
+        margin: 45px 0px;
+        align-items: center;
+       
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
     }
     .nov p{
         display: flex;
@@ -501,7 +565,7 @@ hr{
     }
 
     hr{
-        display: none;
+       display: none;
     }
     
     .row{
@@ -510,7 +574,8 @@ hr{
     }
     .arajin{
         display: flex;
-       flex:5
+       flex:5;
+       align-items: center;
     }
     .main{
         display: flex;
@@ -525,6 +590,11 @@ hr{
         display: flex;
         gap:30px
     }
+    .header{
+        display: flex;
+        
+    }
+  
     
 }
 @media screen and (max-width:498px){

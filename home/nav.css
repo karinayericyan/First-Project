@@ -346,15 +346,22 @@ h4{
 @media screen and (max-width:994px){
  .gallery{
       background-size: contain;
+       
+    }
+     .galleryy{
+        display: flex;
+        flex-direction: column;
+        gap:0px;
+        margin-top: -10%;
     }
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:840px){
     .galleryy{
         display: flex;
         flex-direction: column;
         gap:0px;
-        margin-top: -30%;
+        margin-top: -20%;
     }
     .row{
         gap:90px;
@@ -373,12 +380,12 @@ h4{
     }
   
 }
-@media screen and (max-width:660px){
+@media screen and (max-width:770px){
 
      .galleryy{
         display: flex;
         flex-direction: column;
-        margin-top: -55%;
+        margin-top: -25%;
        
       
     }
@@ -401,6 +408,56 @@ h4{
         position: absolute;
         top:5%;
         left:20%;
+    }
+}
+@media screen and (max-width:713px){
+
+     .galleryy{
+        display: flex;
+        flex-direction: column;
+        margin-top: -40%;
+       
+      
+    }
+}
+@media screen and (max-width:676px){
+
+     .galleryy{
+        display: flex;
+        flex-direction: column;
+        margin-top: -50%;
+       
+      
+    }
+     .gallery{
+        background-size: contain;
+        margin-bottom: 30px;
+        margin: 0px 0px;
+        padding: 0px 0px;
+        background-attachment: unset;
+     
+    }
+     .row{
+        display: flex;
+        gap:90px
+    }
+    .text{
+        height: auto;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top:5%;
+        left:20%;
+    }
+}
+@media screen and (max-width:665px){
+
+     .galleryy{
+        display: flex;
+        flex-direction: column;
+        margin-top: -50%;
+       
+      
     }
 }
 @media screen and (max-width:627px){
@@ -432,7 +489,7 @@ h4{
         font-size: 50px;
     }
 }
-@media screen and (max-width:566px){
+@media screen and (max-width:585px){
 
      .galleryy{
         display: flex;
@@ -480,12 +537,12 @@ h4{
     }
     
 } 
-@media screen and (max-width:515px){
+@media screen and (max-width:501px){
 
      .galleryy{
         display: flex;
         flex-direction: column;
-        margin-top: -80%;
+        margin-top: -90%;
        
       
     }
@@ -560,6 +617,26 @@ h4{
    
    
 }
+@media screen and (max-width:497px){
+
+     .galleryy{
+        display: flex;
+        flex-direction: column;
+        margin-top: -97%;
+       
+      
+    }
+}
+@media screen and (max-width:448px){
+
+     .galleryy{
+        display: flex;
+        flex-direction: column;
+        margin-top: -115%;
+       
+      
+    }
+}
 @media screen and (max-width:425px){
      .galleryy{
         display: flex;
@@ -588,7 +665,7 @@ h4{
         font-size: 20px;
     }
 }
-@media screen and (max-width:394px){
+@media screen and (max-width:399px){
      .galleryy{
         display: flex;
         flex-direction: column;
@@ -622,6 +699,41 @@ h4{
         display: flex;
         flex-direction: column;
         margin-top: -190%;
+      
+    }
+    
+    .row{
+        gap:50px
+    }
+    .button{
+        margin-top: 2%;
+    }
+   
+     .text{
+        height: auto;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top:1%;
+        left:5%;
+    }
+      .text h2{
+        font-size: 18px;
+
+    }
+    .paragraph{
+
+        font-size: 14px;
+    }
+    .text .planner{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:354px){
+     .galleryy{
+        display: flex;
+        flex-direction: column;
+        margin-top: -180%;
       
     }
     
